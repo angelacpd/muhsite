@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'taggit',
     'django.contrib.sites',
     'django.contrib.sitemaps',
+    'django.contrib.postgres',
 ]
 
 MIDDLEWARE = [
@@ -95,6 +96,8 @@ DATABASES = {
         'PASSWORD': 'blogpw',
     }
 }
+
+# TODO admin site does not show the username on post, it shows the #id instead.
 
 
 # Password validation
